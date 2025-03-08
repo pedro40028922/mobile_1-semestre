@@ -45,12 +45,12 @@ let idade = 70
     console.log("É menor de idade")
  }
                 //Exercicio 4  
-/*   for (let num = 0; num <=100; num++) {
+   for (let num = 0; num <=100; num++) {
     
 console.log(num)
   
 }
- */               // Exercicio 5
+             // Exercicio 5
         function multiplicador(Kaioken) {
    return{
     Dobro: Kaioken*2,
@@ -63,5 +63,8 @@ console.log(multiplicador(5))
 let numeros =[10,20,30,40,50]
 let add = numeros.push(60)
 let removerPri = numeros.shift()
-
+let maior = Math.max(...numeros)
+let MENOR = Math.min(...numeros)
 console.log(numeros)
+console.log("O maior Número deste array é:",maior)
+console.log("O menor Número deste array é:",MENOR)
